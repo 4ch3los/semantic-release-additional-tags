@@ -1,0 +1,28 @@
+{
+  "name": "semantic-release-additional-tags",
+  "version": "1.0.0",
+  "description": "A semantic-release plugin, with the ability to add additional tags like v1.latest, latest and support for gitlab protected tags",
+  "main": "index.js",
+  "author": "Kai Fink",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.2",
+    "semantic-release": "^22.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4ch3los/semantic-release-additional-tags.git"
+  },
+  "keywords": [
+    "semantic-release",
+    "major-tags",
+    "additional-tags",
+    "tags"
+  ]
+}
