@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/4ch3los/semantic-release-additional-tags/compare/v1.0.0...v1.0.1) (2024-01-10)
+
+
+### Bug Fixes
+
+* CI_API_V4_URL was not resolved corectly ([008a480](https://github.com/4ch3los/semantic-release-additional-tags/commit/008a48051c9d71fc595fbe6fd593923a35e92047))
+
 # 1.0.0 (2024-01-10)
 
 
