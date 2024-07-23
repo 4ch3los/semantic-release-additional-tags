@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/4ch3los/semantic-release-additional-tags/compare/v1.0.1...v1.0.2) (2024-07-23)
+
+
+### Bug Fixes
+
+* Updated dependencies ([e5eccac](https://github.com/4ch3los/semantic-release-additional-tags/commit/e5eccace14e10fcc7f51d2cc0d9d046ddf3abcfa))
+
 ## [1.0.1](https://github.com/4ch3los/semantic-release-additional-tags/compare/v1.0.0...v1.0.1) (2024-01-10)
 
 
