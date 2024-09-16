@@ -89,3 +89,4 @@ semantic-release:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH 
       when: always
 ```
+
