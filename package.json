@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-additional-tags",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A semantic-release plugin, with the ability to add additional tags like v1.latest, latest and support for gitlab protected tags",
   "main": "index.js",
   "author": "Kai Fink",
