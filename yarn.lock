@@ -333,17 +333,17 @@
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-25.0.0.tgz#adeead36992abf966e89dcd53518d8b0dc910e0d"
   integrity sha512-FZvktFu7HfOIJf2BScLKIEYjDsw6RKc7rBJCdvCTfKsVnx2GEB/Nbzjr29DUdb7vQhlzS/j8qDzdditP0OC6aw==
 
-"@octokit/openapi-types@^25.1.0":
-  version "25.1.0"
-  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-25.1.0.tgz#5a72a9dfaaba72b5b7db375fd05e90ca90dc9682"
-  integrity sha512-idsIggNXUKkk0+BExUn1dQ92sfysJrje03Q0bv0e+KPLrvyqZF8MnBpFz8UNfYDwB3Ie7Z0TByjWfzxt7vseaA==
+"@octokit/openapi-types@^27.0.0":
+  version "27.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-27.0.0.tgz#374ea53781965fd02a9d36cacb97e152cefff12d"
+  integrity sha512-whrdktVs1h6gtR+09+QsNk2+FO+49j6ga1c55YZudfEG+oKJVvJLQi3zkOm5JjiUXAagWK2tI2kTGKJ2Ys7MGA==
 
-"@octokit/plugin-paginate-rest@^13.0.0":
-  version "13.1.1"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-13.1.1.tgz#ca5bb1c7b85a583691263c1f788f607e9bcb74b3"
-  integrity sha512-q9iQGlZlxAVNRN2jDNskJW/Cafy7/XE52wjZ5TTvyhyOD904Cvx//DNyoO3J/MXJ0ve3rPoNWKEg5iZrisQSuw==
+"@octokit/plugin-paginate-rest@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-14.0.0.tgz#44dc9fff2dacb148d4c5c788b573ddc044503026"
+  integrity sha512-fNVRE7ufJiAA3XUrha2omTA39M6IXIc6GIZLvlbsm8QOQCYvpq/LkMNGyFlB1d8hTDzsAXa3OKtybdMAYsV/fw==
   dependencies:
-    "@octokit/types" "^14.1.0"
+    "@octokit/types" "^16.0.0"
 
 "@octokit/plugin-retry@^8.0.0":
   version "8.0.1"
@@ -387,12 +387,12 @@
   dependencies:
     "@octokit/openapi-types" "^25.0.0"
 
-"@octokit/types@^14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-14.1.0.tgz#3bf9b3a3e3b5270964a57cc9d98592ed44f840f2"
-  integrity sha512-1y6DgTy8Jomcpu33N+p5w58l6xyt55Ar2I91RPiIA0xCJBXyUAhXCcmZaDWSANiha7R9a6qJJ2CRomGPZ6f46g==
+"@octokit/types@^16.0.0":
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-16.0.0.tgz#fbd7fa590c2ef22af881b1d79758bfaa234dbb7c"
+  integrity sha512-sKq+9r1Mm4efXW1FCk7hFSeJo4QKreL/tTbR0rz/qx/r1Oa2VV83LTA/H/MuCOX7uCIJmQVRKBcbmWoySjAnSg==
   dependencies:
-    "@octokit/openapi-types" "^25.1.0"
+    "@octokit/openapi-types" "^27.0.0"
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
@@ -473,13 +473,13 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@^11.0.0":
-  version "11.0.6"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.6.tgz#3320c373334858a3aefb11cf75abccb7cc438040"
-  integrity sha512-ctDzdSMrT3H+pwKBPdyCPty6Y47X8dSrjd3aPZ5KKIKKWTwZBE9De8GtsH3TyAlw3Uyo2stegMx6rJMXKpJwJA==
+"@semantic-release/github@^12.0.0", "@semantic-release/github@^12.0.6":
+  version "12.0.6"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-12.0.6.tgz#c60c556e7087938be988d0be3de6d70e8cbaced8"
+  integrity sha512-aYYFkwHW3c6YtHwQF0t0+lAjlU+87NFOZuH2CvWFD0Ylivc7MwhZMiHOJ0FMpIgPpCVib/VUAcOwvrW0KnxQtA==
   dependencies:
     "@octokit/core" "^7.0.0"
-    "@octokit/plugin-paginate-rest" "^13.0.0"
+    "@octokit/plugin-paginate-rest" "^14.0.0"
     "@octokit/plugin-retry" "^8.0.0"
     "@octokit/plugin-throttling" "^11.0.0"
     "@semantic-release/error" "^4.0.0"
@@ -493,28 +493,7 @@
     mime "^4.0.0"
     p-filter "^4.0.0"
     tinyglobby "^0.2.14"
-    url-join "^5.0.0"
-
-"@semantic-release/github@^12.0.0":
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-12.0.0.tgz#b852703f96cbf9610e056a736c339516c8c27b30"
-  integrity sha512-louWFjzZ+1dogfJTY8IuJuBcBUOTliYhBUYNcomnTfj0i959wtRQbr1POgdCoTHK7ut4N/0LNlYTH8SvSJM3hg==
-  dependencies:
-    "@octokit/core" "^7.0.0"
-    "@octokit/plugin-paginate-rest" "^13.0.0"
-    "@octokit/plugin-retry" "^8.0.0"
-    "@octokit/plugin-throttling" "^11.0.0"
-    "@semantic-release/error" "^4.0.0"
-    aggregate-error "^5.0.0"
-    debug "^4.3.4"
-    dir-glob "^3.0.1"
-    http-proxy-agent "^7.0.0"
-    https-proxy-agent "^7.0.0"
-    issue-parser "^7.0.0"
-    lodash-es "^4.17.21"
-    mime "^4.0.0"
-    p-filter "^4.0.0"
-    tinyglobby "^0.2.14"
+    undici "^7.0.0"
     url-join "^5.0.0"
 
 "@semantic-release/npm@^13.1.1", "@semantic-release/npm@^13.1.5":
@@ -3470,6 +3449,11 @@ undici@^6.23.0:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/undici/-/undici-6.24.1.tgz#9df1425cede20b836d95634347946f79578b7e71"
   integrity sha512-sC+b0tB1whOCzbtlx20fx3WgCXwkW627p4EA9uM+/tNNPkSS+eSEld6pAs9nDv7WbY1UUljBMYPtu9BCOrCWKA==
+
+undici@^7.0.0:
+  version "7.24.8"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-7.24.8.tgz#8207d06a68955d4420e50468f2749e940b3eb4cf"
+  integrity sha512-6KQ/+QxK49Z/p3HO6E5ZCZWNnCasyZLa5ExaVYyvPxUwKtbCPMKELJOqh7EqOle0t9cH/7d2TaaTRRa6Nhs4YQ==
 
 unicode-emoji-modifier-base@^1.0.0:
   version "1.0.0"
