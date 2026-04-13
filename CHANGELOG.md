@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/4ch3los/semantic-release-additional-tags/compare/v1.0.6...v1.0.7) (2026-04-13)
+
+
+### Bug Fixes
+
+* update dependencies (Merge pull request [#61](https://github.com/4ch3los/semantic-release-additional-tags/issues/61) from 4ch3los/dependabot/npm_and_yarn/semantic-release-25.0.3) ([492ece3](https://github.com/4ch3los/semantic-release-additional-tags/commit/492ece3412e240561f81471dfdf02d3fae262469))
+
 ## [1.0.6](https://github.com/4ch3los/semantic-release-additional-tags/compare/v1.0.5...v1.0.6) (2025-07-25)
 
 
